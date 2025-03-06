@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+.hover-link {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 18px;
+    text-decoration: none;
+    color: black;
+    border: 2px solid green;
+    transition: all 0.3s ease;
+}
+
+.hover-link:hover {
+    background-color: green;
+    color: white;
+    display: block;
+}
+
+.list {
+    background-color: yellow;
+    padding: 10px;
+    display: inline-block;
+    list-style-type: square;
+    display: block;
+}
+
+.heading {
+    position: relative;
+    display: inline-block;
+    padding: 20px;
+    font-size: 20px;
+}
+
+.bg-image {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100px;
+    height: 100%;
+    z-index: -1;
+}
